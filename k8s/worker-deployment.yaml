@@ -16,4 +16,9 @@ spec :
       containers: 
         - name: worker
           image: ksreddy4599/fibonacci-worker
+          env:
+           - name: REDIS_HOST
+             value: redis-cluster-ip-service
+           - name: REDIS_PORT
+             value: '6379'
        
