@@ -12,7 +12,8 @@ class App extends Component {
         <div className="App">
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
-            <h1 className="App-title">Fibonacci Version 2.0</h1>
+            <h1 className="App-title">Fibonacci Powered by Kubernetes</h1>
+            <img src= 'https://upload.wikimedia.org/wikipedia/en/0/00/Kubernetes_%28container_engine%29.png' alt="kubernetes" />
             <Link to="/">Home</Link>
             <Link to="/otherpage">Other Page</Link>
              <div>
